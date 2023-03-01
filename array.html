@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        // alphabate array 
+        var fruits =["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        document.write(fruits, "<br>");
+
+        // numberical array 
+        var number =[10,20,30,40,50];
+        document.write(number, "<br>");
+
+        // mix array 
+        var mix =["apple", "mango", 10,20];
+        document.write(mix, "<br>");
+
+
+        document.write(fruits[2], "<br>");
+        
+        // Delete value in start 
+        var fruits =["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        fruits.shift();
+        document.write(fruits, "<br>");
+
+        // Delete value in end 
+        var fruits =["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        fruits.pop();
+        document.write(fruits, "<br>");
+
+        // Add value in start 
+        var fruits =["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        fruits.unshift("Hello");
+        document.write(fruits, "<br>");
+
+        // Add value in end 
+        var fruits =["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        fruits.push("Hello");
+        document.write(fruits, "<br>");
+
+        // Add A and B array in C
+        var a =["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        var b =[10,20,30,40,50];
+        var c = a.concat(b);
+
+        document.write(c);
+    </script>
+</body>
+</html>
