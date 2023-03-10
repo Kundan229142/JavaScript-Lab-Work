@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        //array difine in javascript
+
+        var alphabate = ["A", "B", "C", "D", "E"];
+        document.write(alphabate);
+        document.write("<hr>");
+
+        var sting = ["apple", "mango", "banana", "grapes", "orange"];
+        document.write(sting);
+        document.write("<hr>");
+
+        var number = [10, 20, 30, 40, 50];
+        document.write(number);
+        document.write("<hr>");
+
+        var mix = ["apple", "10", "banana", "20", "orange"];
+        document.write(mix);
+        document.write("<hr>");
+
+        //how to sum in array
+        var sum = (number[0] + number[1]);
+        document.write("sum of two number in array:-" + sum);
+        document.write("<hr>");
+
+        //How to print Array vartically ?
+        var alp_var = ["A", "B", "C", "D", "E","F"];
+        for (var a = 0; a < alp_var.length; a++) {
+            document.write(alp_var[a] + "<br>");
+        }
+        document.write("<hr>");
+
+        //how to creat list in array
+        var alp_list = ["A", "B", "C", "D", "E"];
+        document.write("<ul>")
+        for (var m = 0; m <alp_list.length; m++) {
+            document.write("<li>" + alp_list[m] + "<br>");
+        }
+        
+        //multi dimantional array
+        var id=[
+            ["Name=kundan",],
+            ["Roll no-229142"],
+            ["class=BCA"]
+        ]
+        document.write(id);
+
+    </script>
+</body>
+
+</html>
